@@ -25,7 +25,7 @@ module.exports = {
   plugins: [],
 }
 ```
-### add script packege.json file
+### Add script packege.json file
 ```
   "scripts": {
     "start": "vite",
