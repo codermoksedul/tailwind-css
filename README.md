@@ -11,6 +11,12 @@ npm install -D tailwindcss postcss autoprefixer vite
 ```
 npx tailwindcss init -p
 ```
+### Add this code CSS file
+```
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
 
 ### Change tailwind.config.js
 #### Add * from content
