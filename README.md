@@ -29,9 +29,20 @@ module.exports = {
 ```
   "scripts": {
     "start": "vite",
-    "build": "tailwindcss -i style.css -o ./css/style.min.css --minify",
-    "dev": "vite build"
+    "develop": "tailwindcss -i style.css -o ./css/style.min.css --minify",
+    "build": "vite build"
   },
 ```
-npm init -y
+### Run Projects from vit
+```
+npm run start
+```
+
+### Build Projcts Form Vite
+```
+npm run build
+```
+### Build Custom CSS Folder
+```
+npm run develop
 ```
