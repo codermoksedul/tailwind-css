@@ -13,11 +13,11 @@ npx tailwindcss init -p
 ```
 
 ### Change tailwind.config.js
+#### Add * from content
 ```
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ['*'],
-  darkMode: 'media',
   darkMode: 'class',
   theme: {
     extend: {},
