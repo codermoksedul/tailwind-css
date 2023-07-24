@@ -25,6 +25,13 @@ module.exports = {
   plugins: [],
 }
 ```
+##add script packege.json file
+```
+  "scripts": {
+    "start": "vite",
+    "build": "tailwindcss -i style.css -o ./css/style.min.css --minify",
+    "dev": "vite build"
+  },
 ```
 npm init -y
 ```
