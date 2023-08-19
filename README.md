@@ -37,8 +37,8 @@ module.exports = {
 ```
   "scripts": {
     "start": "vite",
-    "develop": "tailwindcss -i style.css -o ./css/style.min.css --minify",
-    "build": "vite build"
+    "build": "tailwindcss -i ./css/style.css -o ./css/style.min.css --minify",
+    "build-vite": "vite build"
   },
 ```
 ### Run Projects from vit
